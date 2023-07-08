@@ -17,7 +17,7 @@ import java.util.Map;
 public class MicroServicioSaludoApplication {
 
     //to use the microservice from postman or a browser, you need to access http://localhost:8080/hello?name=user
-    
+
     
     @GetMapping("/hello")
     public HelloResponse hello(@RequestParam("name") String name) {
